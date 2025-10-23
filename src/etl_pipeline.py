@@ -81,7 +81,7 @@ def query_data(engine):
 
 # ---------------- MAIN ----------------
 def main():
-    file_path = r"c:\Users\ilaas\OneDrive\Desktop\data-hustle\Miniproject1\Data\netflix_titles.csv"
+    file_path = r"c:\Users\ilaas\OneDrive\Desktop\data-hustle\data\netflix_titles.csv"
     df = extract(file_path)
     df = transform(df)
     engine = load(df)
